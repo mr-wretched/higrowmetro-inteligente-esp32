@@ -1,7 +1,7 @@
 //Sensor DHT22
 #include "DHT.h"
-#define DHTPIN 23      // Digital pin connected to the DHT sensor
-#define DHTTYPE DHT22  // DHT 22 (AM2302), AM2321
+#define DHTPIN 23    
+#define DHTTYPE DHT22 
 DHT dht(DHTPIN, DHTTYPE);
 float rh = 0.0;
 float t = 0.0;
